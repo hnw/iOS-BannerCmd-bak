@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55C6495F1D06E0190000B340 /* banner.c in Sources */ = {isa = PBXBuildFile; fileRef = 55C6495C1D06E0190000B340 /* banner.c */; };
+		55C649601D06E0190000B340 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 55C6495D1D06E0190000B340 /* config.h */; };
+		55C649611D06E0190000B340 /* letters.h in Headers */ = {isa = PBXBuildFile; fileRef = 55C6495E1D06E0190000B340 /* letters.h */; };
 		FE4E86BF1D03D2B600D1E53B /* BannerCmd.h in Headers */ = {isa = PBXBuildFile; fileRef = FE4E86BE1D03D2B600D1E53B /* BannerCmd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE4E86C61D03D2B600D1E53B /* BannerCmd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE4E86BB1D03D2B600D1E53B /* BannerCmd.framework */; };
 		FE4E86CB1D03D2B600D1E53B /* BannerCmdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE4E86CA1D03D2B600D1E53B /* BannerCmdTests.swift */; };
@@ -23,6 +26,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		55C6495C1D06E0190000B340 /* banner.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = banner.c; sourceTree = "<group>"; };
+		55C6495D1D06E0190000B340 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		55C6495E1D06E0190000B340 /* letters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = letters.h; sourceTree = "<group>"; };
 		FE4E86BB1D03D2B600D1E53B /* BannerCmd.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BannerCmd.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE4E86BE1D03D2B600D1E53B /* BannerCmd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BannerCmd.h; sourceTree = "<group>"; };
 		FE4E86C01D03D2B600D1E53B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -71,6 +77,9 @@
 		FE4E86BD1D03D2B600D1E53B /* BannerCmd */ = {
 			isa = PBXGroup;
 			children = (
+				55C6495C1D06E0190000B340 /* banner.c */,
+				55C6495D1D06E0190000B340 /* config.h */,
+				55C6495E1D06E0190000B340 /* letters.h */,
 				FE4E86BE1D03D2B600D1E53B /* BannerCmd.h */,
 				FE4E86C01D03D2B600D1E53B /* Info.plist */,
 			);
@@ -93,7 +102,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55C649601D06E0190000B340 /* config.h in Headers */,
 				FE4E86BF1D03D2B600D1E53B /* BannerCmd.h in Headers */,
+				55C649611D06E0190000B340 /* letters.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55C6495F1D06E0190000B340 /* banner.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +390,7 @@
 				FE4E86D11D03D2B600D1E53B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE4E86D21D03D2B600D1E53B /* Build configuration list for PBXNativeTarget "BannerCmdTests" */ = {
 			isa = XCConfigurationList;
@@ -386,6 +399,7 @@
 				FE4E86D41D03D2B600D1E53B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
